@@ -9,7 +9,6 @@ import codoingRound.pages.FlightBooking;
 public class FlightBookingTest extends Base_Test{
 	FlightBooking flight;
 	
-	
 	@Test
 	public void oneWayJourney() throws IOException{
 		flight=new FlightBooking(driver);	

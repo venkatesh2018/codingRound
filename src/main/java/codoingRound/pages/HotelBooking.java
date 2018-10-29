@@ -30,14 +30,9 @@ public class HotelBooking extends CommonFunctions {
     @Test
     public void shouldBeAbleToSearchForHotels() {
         hotelLink.click();
-
         localityTextBox.sendKeys("Indiranagar, Bangalore");
-
         new Select(travellerSelection).selectByVisibleText("1 room, 2 adults");
         searchButton.click();
-
-     
-
     }
 
 	@Override
