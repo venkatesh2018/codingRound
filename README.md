@@ -1,29 +1,14 @@
-# TestVagrant hiring challenge for applicants 
+This framework is a improved version of the TestVagarant assignment framework. Following changes are made to the framework in order to accomplish the assignment.
 
-About the codebase:
----------------------------------
-*This is a simple test project for testing a few scenarios on a sample flight/hotel booking website. There are **3 tests** in total spread over 3 test classes. Following tech stack has been used to develop the same.*
+Version1(Old framework)                                        |        Version 2(Enhanced framework)
+1. Multiple Drivers were initialized in every test class.      | 1. Seperate Driver class is created where driver is initialized only once with the help 
+2. Testdata and Locators were hard coded in the framework.     | 2. Testdata and Locators file were seperately created to support better data handling.        
+3. Lack of oops concepts                                       | 3. OOPS concepts like Inheritance,Abstraction, Polymorphism were used.
+4. Linear framework                                            | 4. Linear framework was converted to POM,Page Factory models.
+5. No code reusability                                         | 5. CommonFunctions, OOPS concepts are provided for code reusability.
 
-**Tech Stack:** *Java*  *Selenium* *TestNG*  *Gradle/Maven*
+Things still pending:
+1. Hotel booking and SignIn classes are not executed/maintained due to time shortage.
+2. Encapsulation is not implemented due to time shortage. 
 
-Problem Statement
-----------------------------------
-**Tasks:**
-
-1. Test are failing which needs your expertise to fix it.
-2. Review and point out design issues with the current codebase/framework, if any.
-3. Improve/refactor the code to implement your suggestions.
-
-**Expectation:**
-1. Create a GitHub account if not existing already.
-2. Fork this repo (DO NOT CLONE).
-3. Fix the errors and refactor the code, consider **abstractions, reusability and maintenance.**
-4. Make sure you make multiple check-ins in the process, we would love to see your progress bit by bit.
-5. Also check-in a separate file where you should list all your code review comments.
-6. Send us the link of your GitHub repo to **careers@testvagrant.com**. Also attach your **resume**.
-
-**The parameters of evaluation:**
-1. Naming Conventions & readability of code
-2. Modularization & Abstraction
-3. Demonstration of OO concepts & Design Patterns
-4. Etiquette of Version control
+*---------------end----------------------*
